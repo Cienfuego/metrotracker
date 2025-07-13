@@ -1,0 +1,74 @@
+/* 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.left-panel {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-panel {
+  flex: 1;
+  height: 100%;
+} */
+
+.app-container {
+  background-color: #f0f0f0; /* Light gray background */
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.page-title {
+  width: 100%;
+  text-align: center;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 2.5rem;
+  color: #FF3366;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.4);
+}
+
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.map-section {
+  width: 100%;
+  height: 50vh; /* Half the viewport height */
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+
+  
