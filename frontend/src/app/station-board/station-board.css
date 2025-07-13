@@ -1,0 +1,90 @@
+
+
+
+.board-container {
+  background-color: black;
+  color: yellow;
+  width: 600px;
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.board-table th {
+  color: #FF3366;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.board-table td {
+  color: #FFFF66; /* Brighter yellow */
+  padding: 0.3rem 0;
+  font-size: 1.4rem;
+  font-weight: 900; /* Heavier font */
+}
+
+.car-8 {
+  color: #ADFF2F !important;
+  font-weight: 900;
+}
+
+.board-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.station-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4D4030; /* WMATA brown */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 1.2rem;
+  padding: 1rem 0.5rem;
+  height: 300px; /* Adjust as needed */
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.station-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #4D4030; /* WMATA brown */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  width: fit-content;
+}
+
+.metro-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #2a2a2a;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  font-family: Arial, sans-serif;
+}
+
+.station-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
