@@ -1,0 +1,29 @@
+<div class="station-header">
+  <div class="metro-logo">M</div>
+  <div class="station-name">Wiehle-Reston East Station</div>
+</div>
+<div class="board-container">
+  <table class="board-table">
+    <thead>
+      <tr>
+        <th>LN</th>
+        <th>CAR</th>
+        <th>DEST</th>
+        <th>MIN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let train of trainEstimates">
+        <td>{{ train.line }}</td>
+        <td [class.car-8]="train.car === '8'">{{ train.car }}</td>
+        <td>{{ train.destination }}</td>
+        <td>{{ train.etaMinutes === 0 ? 'ARR' : train.etaMinutes }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
